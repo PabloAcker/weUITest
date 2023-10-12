@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f400ba17-42b6-4d01-a4aa-266a4fc59d1e" name="Changes" comment="Commit with process of create Project Test">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f400ba17-42b6-4d01-a4aa-266a4fc59d1e" name="Changes" comment="Commit with create and update project finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tareaCreateUpdateProjectTest/CreateProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tareaCreateUpdateProjectTest/CreateProjectTest.java" afterDir="false" />
     </list>
@@ -48,7 +47,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CreateProjectTest.verifyUpdateProjectTest">
+  <component name="RunManager" selected="Gradle.CreateProjectTest">
     <configuration name="CreateProjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,9 +170,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateProjectTest" />
         <item itemvalue="Gradle.CreateProjectTest.verifyUpdateProjectTest" />
         <item itemvalue="Gradle.CreateProjectTest.verifyCreateNewProjectTest" />
-        <item itemvalue="Gradle.CreateProjectTest" />
         <item itemvalue="Gradle.CreateProjectTest.verifyLoginTest" />
         <item itemvalue="Gradle.CreateProjectTest.verifyCreateProjectTest" />
       </list>
@@ -212,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697084464263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit with create and update project finished">
+      <option name="closed" value="true" />
+      <created>1697141690221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697141690221</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,6 +227,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Commit with changes of class" />
     <MESSAGE value="Commit with process of create Project Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit with process of create Project Test" />
+    <MESSAGE value="Commit with create and update project finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with create and update project finished" />
   </component>
 </project>

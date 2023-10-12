@@ -13,7 +13,7 @@ import java.util.List;
 
 public class CreateProjectTest {
     ChromeDriver chrome;
-    String nombreProyecto = "Nuevo Projecto 3";
+    String nombreProyecto = "Nuevo Projecto 4";
     @BeforeEach
     public void openBrowser(){
         System.setProperty("webdriver.chrome.driver","src/test/resources/chrome/chromedriver.exe");
@@ -64,12 +64,13 @@ public class CreateProjectTest {
         chrome.findElement(By.id("NewProjNameButton")).click();
 
         // verificar si existe el nombre del proyecto nuevo
-        Assertions.assertEquals(chrome.findElements(By.id("NewProjNameInput")),chrome.findElements(By.id("NewProjNameInput")), "ERROR! No existe un proyecto con ese nombre");
+        List<WebElement> projects = chrome.findElements(By.xpath(String.format("//td[text()='"+nombreProyecto+"']")));
+        Assertions.assertFalse(projects.isEmpty(), "ERROR: No existe un proyecto con ese nombre");
     }
 
     @Test
     public void verifyUpdateProjectTest(){
-        String nuevoNombreProyecto = "Update_NuevoProjecto3";
+        String nuevoNombreProyecto = "Update_NuevoProjecto4";
         // click login button
         chrome.findElement(By.xpath("//img[@src=\"/Images/design/pagelogin.png\"]")).click();
         // set email
@@ -98,10 +99,11 @@ public class CreateProjectTest {
         chrome.findElement(By.id("ItemEditTextbox")).sendKeys(nuevoNombreProyecto);
         chrome.findElement(By.id("ItemEditSubmit")).click();
 
-        List<WebElement> similarProjectsAfter = chrome.findElements(By.xpath(String.format("//td[text()='"+nuevoNombreProyecto+"']")));
+        List<WebElement> updatedProjects = chrome.findElements(By.xpath(String.format("//td[text()='"+nuevoNombreProyecto+"']")));
 
         //Final Verification
-        Assertions.assertTrue(similarProjectsBefore.size() < similarProjectsAfter.size(), "ERROR no se pudo editar un proyecto");
+        Assertions.assertFalse(updatedProjects.isEmpty(), "ERROR: El proyecto no fue actualizado correctamente");
+
     }
 
     @AfterEach
