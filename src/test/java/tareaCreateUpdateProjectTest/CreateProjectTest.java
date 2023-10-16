@@ -56,7 +56,7 @@ public class CreateProjectTest {
                 "ERROR no se pudo ingresar a la sesion");
 
         // Crear un nuevo proyecto:
-        // click Add New Project button
+        // click Add New Project button-
         chrome.findElement(By.xpath("//div[@class=\"AddProjectLiDiv\"]")).click();
         // set NewName Project
         chrome.findElement(By.id("NewProjNameInput")).sendKeys(nombreProyecto);
