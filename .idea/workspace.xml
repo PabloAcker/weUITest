@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f400ba17-42b6-4d01-a4aa-266a4fc59d1e" name="Changes" comment="Commit with excercise 1 complete">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practica2Parcial/ejercicio2/LoginTodoistTest.java" afterDir="false" />
+    <list default="true" id="f400ba17-42b6-4d01-a4aa-266a4fc59d1e" name="Changes" comment="Commit with excercise 2 complete">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practica2Parcial/ejercicio3/UpdateFullNameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,31 +63,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Pablo/IdeaProjects/webUITest&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.LoginTodoistTest">
-    <configuration name="CreateProjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tareaCreateUpdateProjectTest.CreateProjectTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.UpdateFullNameTest.editFullName">
     <configuration name="CreateUpdateItem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -184,13 +160,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="UpdateFullNameTest.editFullName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;practica2Parcial.ejercicio3.UpdateFullNameTest.editFullName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UpdateFullNameTest.editFullName" />
         <item itemvalue="Gradle.LoginTodoistTest" />
         <item itemvalue="Gradle.CreateUpdateItem" />
         <item itemvalue="Gradle.CreateUpdateItem.verifyCreateUpdateNewItemTest" />
         <item itemvalue="Gradle.CreateUpdateItem.verifyUpdateProjectTest" />
-        <item itemvalue="Gradle.CreateProjectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697483001800</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit with excercise 2 complete">
+      <option name="closed" value="true" />
+      <created>1697484949113</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697484949113</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,6 +270,7 @@
     <MESSAGE value="Commit with create and update project finished" />
     <MESSAGE value="Commit with create and update project finished completed" />
     <MESSAGE value="Commit with excercise 1 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit with excercise 1 complete" />
+    <MESSAGE value="Commit with excercise 2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with excercise 2 complete" />
   </component>
 </project>
